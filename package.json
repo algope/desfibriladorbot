@@ -1,0 +1,25 @@
+{
+  "name": "desfibriladorbot",
+  "version": "1.0.0",
+  "description": "AED Telegram bot",
+  "main": "index.js",
+  "author": {
+    "name": "Alejandro González",
+    "email": "alejandro.gon.per@gmail.com",
+    "url": "http://alejandrogonzalez.me/"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/algope/desfibriladorbot"
+  },
+  "dependencies": {
+    "geolib": "^2.0.22",
+    "get-json": "0.0.3",
+    "node-emoji": "^1.5.1",
+    "telegraf": "^3.7.4"
+  }
+}
